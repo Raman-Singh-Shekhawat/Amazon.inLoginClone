@@ -12,11 +12,12 @@ body{
     height: 100vh;
 }
 .logo{
+    
     position:fixed;
-    width:150px;
-    height: auto;
-    top: -4px;
-
+    width: 180px;
+    height: 180px;
+    top: -1px;
+    align-self: center;
 }
 .disp{
     display: flex;
@@ -30,11 +31,11 @@ body{
 }
 .bottom{
     position: absolute;
-    top: 520px;
+    top: 680px;
     text-align: center;
     max-width: 350px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 p.end{
     padding-top: 15px;
@@ -46,10 +47,11 @@ p.email{
 }
 .top{
     position: absolute;
-    top: 450px;
-    border-bottom: 1px solid #000;
-    box-shadow: 0px 2px 2px #000;
+    top: 570px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    /* box-shadow: 0px 2px 2px #000; */
     width: 100%;
+    padding-bottom: 3%;
 }
 h1{
     margin-right: 60%;
@@ -78,7 +80,7 @@ div.arrow{
 
 .main{
     position: absolute;
-    top: -380px;
+    top: -420px;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
@@ -86,14 +88,14 @@ div.arrow{
     align-items: center;
     flex-wrap: wrap;
     width: 400px;
-    padding:0px;
+    padding: 20px 10px 15px 1px;
 }
 .new{
     text-align: center;
     margin-bottom: 25px;
     max-width: 450px;
     position: absolute;
-    /* top: -67px; */
+    top: -50px;
 }
 h1, p.email, form,  .arrow, .tc{
     margin-left: 30px; 
